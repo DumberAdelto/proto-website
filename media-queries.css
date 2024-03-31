@@ -1,0 +1,19 @@
+@media only screen and (max-width: 480px) {
+  nav {
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+  }
+  canvas {
+    display: none;
+  }
+}
+
+/* ----------- Moto 360 Watch xD ----------- */
+@media 
+  (max-device-width: 218px)
+  and (max-device-height: 281px) { 
+    body::after {
+        content: 'Please view this site on a larger device. This website cannot function on this device.';
+    }
+}
